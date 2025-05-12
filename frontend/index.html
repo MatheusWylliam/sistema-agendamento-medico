@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Agendamento Médico</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <div class="max-w-5xl mx-auto px-6 py-10">
+    <h1 class="text-3xl font-bold text-center mb-2">Sistema de Agendamento Médico</h1>
+    <p class="text-center text-gray-600 mb-8">Agende sua consulta médica de forma rápida e eficiente</p>
+
+    <div class="bg-white rounded-xl shadow border mb-6">
+      <div class="px-6 py-4 border-b">
+        <h2 class="text-xl font-semibold">Buscar Disponibilidade</h2>
+        <p class="text-sm text-gray-500">Selecione a especialidade, convênio e data para verificar horários disponíveis</p>
+      </div>
+      <div class="p-6 space-y-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-sm font-medium mb-1">Especialidade</label>
+            <select id="especialidade" class="w-full border border-gray-300 rounded-md p-2">
+              <option>Selecione Especialidade</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-1">Convênio</label>
+            <select id="convenio" class="w-full border border-gray-300 rounded-md p-2">
+              <option>Selecione Convênio</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-1">Data</label>
+            <input id="data" type="date" class="w-full border border-gray-300 rounded-md p-2" />
+          </div>
+        </div>
+        <div class="mt-4">
+          <button id="verDisponibilidade" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900 transition">
+            Ver Horários Disponíveis
+          </button>
+        </div>
+        <div id="slotsContainer" class="hidden mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2"></div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow border">
+      <div class="px-6 py-4 border-b">
+        <h2 class="text-xl font-semibold">Agendamentos</h2>
+        <p class="text-sm text-gray-500">Consulte todos os horários agendados</p>
+      </div>
+      <div class="p-6 text-center text-gray-500">
+        <p>Nenhum agendamento registrado</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
