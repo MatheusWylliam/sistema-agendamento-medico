@@ -1,6 +1,6 @@
 # Teste TI - Sistema de Agendamento Médico
 
-Tanto desenvolvi o back-end quanto o front-end, o back-end (C#/.NET 8) e o **front-end** (HTML, Tailwind CSS e JavaScript puro). Também usei docker para uma melhor portabilidade do projeto.
+O **back-end** (C#/.NET 8) e o **front-end** (HTML, Tailwind CSS e JavaScript puro). Também usei docker para uma melhor portabilidade do projeto.
 
 ---
 
@@ -37,8 +37,8 @@ Tanto desenvolvi o back-end quanto o front-end, o back-end (C#/.NET 8) e o **fro
 ## Os requisitos para rodar o projeto
 
 - Docker Engine e Docker Compose
-- (Se for sem docker) .NET 8 SDK, se quiser executar o projeto sem container
-- (Se for sem docker) Python, se quiser rodar o front sem o Docker
+- (se for sem docker) .NET 8 SDK, se quiser executar o projeto sem container
+- (se for sem docker) Python, se quiser rodar o front sem o Docker
 
 ---
 
