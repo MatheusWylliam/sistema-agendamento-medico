@@ -1,4 +1,4 @@
-#  Sistema de Agendamento Médico
+#  Projeto Sistema de Agendamento Médico
 Aplicação para gestão de agendamentos médicos, permite cadastro de especialidades, convênios, horários de disponibilidade, agendamentos e atendimentos.
 O **back-end** (C#/.NET 8) e o **front-end** (HTML, Tailwind CSS e JavaScript). Docker para uma melhor portabilidade do projeto.
 
