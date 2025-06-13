@@ -31,6 +31,28 @@ O **back-end** (C#/.NET 8) e o **front-end** (HTML, Tailwind CSS e JavaScript). 
 │
 └── docker-compose.yml
 ```
+### Endpoints da API
+```
+POST /especialidades – Cadastro de especialidades
+
+GET /especialidades – Listagem de especialidades
+
+POST /convenios – Cadastro de convênios
+
+GET /convenios – Listagem de convênios
+
+POST /disponibilidades – Cadastro de disponibilidades
+
+GET /disponibilidades – Obtenção de horários para data e especialidade
+
+POST /agendamentos – Agendamento de consulta
+
+GET /agendamentos – Listagem de agendamentos
+
+POST /atendimentos – Marcar como atendido
+
+GET /atendimentos – Listagem de atendimentos
+```
 
 ---
 
