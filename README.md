@@ -7,7 +7,7 @@ O **back-end** (C#/.NET 8) e o **front-end** (HTML, Tailwind CSS e JavaScript). 
 ## Tecnologias
 
 - **Back-end**: .NET 8 (ASP.NET Core Minimal APIs), Entity Framework Core, Npgsql (PostgreSQL) e Swashbuckle (Swagger)
-- **Front-end**: HTML5, Tailwind CSS e JavaScript puro
+- **Front-end**: HTML5, Tailwind CSS e JavaScript
 - **Containerização**: Docker e Docker Compose
 
 ---
