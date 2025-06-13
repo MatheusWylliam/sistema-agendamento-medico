@@ -6,9 +6,9 @@ O **back-end** (C#/.NET 8) e o **front-end** (HTML, Tailwind CSS e JavaScript). 
 
 ## Tecnologias
 
-- **Back-end**: .NET 8 (ASP.NET Core Minimal APIs), Entity Framework Core, Npgsql (PostgreSQL) e Swashbuckle (Swagger)
-- **Front-end**: HTML5, Tailwind CSS e JavaScript
-- **Containerização**: Docker e Docker Compose
+- **Back-end**: .NET 8 (ASP.NET Core Minimal APIs), Entity Framework Core, Npgsql (PostgreSQL) e Swashbuckle (Swagger);
+- **Front-end**: HTML5, Tailwind CSS e JavaScript;
+- **Containerização**: Docker e Docker Compose.
 
 ---
 
@@ -36,9 +36,9 @@ O **back-end** (C#/.NET 8) e o **front-end** (HTML, Tailwind CSS e JavaScript). 
 
 ## Os requisitos para rodar o projeto
 
-- Docker Engine e Docker Compose
-- (se for sem docker) .NET 8 SDK, se quiser executar o projeto sem container
-- (se for sem docker) Python, se quiser rodar o front sem o Docker
+- Docker Engine e Docker Compose;
+- (se for sem docker) .NET 8 SDK, se quiser executar o projeto sem container;
+- (se for sem docker) Python, se quiser rodar o front sem o Docker.
 
 ---
 
